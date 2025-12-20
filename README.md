@@ -14,7 +14,7 @@ Easily export a single specific response (including code and tables) to DOCX or 
 ### Export Entire Chat
 Convert a full conversation history into a polished document with a single click.
 
-![Export Options Sidebar](INSERT_IMAGE_LINK_HERE)
+![Export Options Sidebar](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/1-export-options.png)
 *(Image: Showing the "Export Chat" options for DOCX and PDF)*
 
 ## 2. Organization: Lists & Folders
@@ -25,7 +25,7 @@ Manage complex research across multiple chats using a hierarchical file system.
 * **Folders:** Store an ordered sequence of responses or specific sections.
 * **Active Folder:** The currently selected folder is highlighted with a border. Any content you select in the chat is automatically added to this **Active Folder**.
 
-![Active Folder UI](INSERT_IMAGE_LINK_HERE)
+![Active Folder UI](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/2-organize-lists-folders.png)
 *(Image: Sidebar showing Lists, Folders, and the highlighted Active Folder)*
 
 ### Drag and Drop Reordering
@@ -52,7 +52,7 @@ Enable **"Select Sections"** in the Preferences to curate your document granular
     * **Click once** to select it individually.
     * **Unselect:** If an entire response is selected, **single-click** specific sections (like filler paragraphs) to remove them from the selection while keeping the rest.
 
-![Section Selection Example](INSERT_IMAGE_LINK_HERE)
+![Section Selection Example](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/3-section-selection.png)
 *(Image: A specific table selected with a border and Section ID, excluding the surrounding text)*
 
 ## 4. Numbering System (X.Y)
@@ -73,7 +73,7 @@ Understanding the difference between the formats is crucial for maintaining layo
 * **DOCX (Standard):** Good for editable text, but often drops LaTeX rules (`\hline`, `\cline`) and table semantics, leading to structural formatting loss.
 * **PDF (Lossless):** Recommended for complex data. The suite uses a direct HTML-to-PDF pipeline that preserves all LaTeX formatting, complex equations, and table borders exactly as they appear on screen.
 
-![PDF vs DOCX Comparison](INSERT_IMAGE_LINK_HERE)
+![PDF vs DOCX Comparison](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/5-comparision.png)
 *(Image: Side-by-side comparison of a broken DOCX table versus a perfect PDF render)*
 
 ## 6. Preview Mode
@@ -83,7 +83,7 @@ Verify your document structure before downloading.
 * **Visual Preview:** See exactly how your content—tables, code, and text—will be ordered.
 * **New Tab Option:** Open the preview in a new tab to inspect the full layout sequence before committing to the export.
 
-![Preview Window](INSERT_IMAGE_LINK_HERE)
+![Preview Window](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/6-preview-mode.png)
 *(Image: Preview window showing the ordered sections ready for export)*
 
 ## 7. Storage & Privacy
