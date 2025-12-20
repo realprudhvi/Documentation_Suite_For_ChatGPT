@@ -1,0 +1,46 @@
+<svg width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        /* Shared Styles */
+        .icon-path {
+            fill: none;
+            stroke: #ffffff;
+            stroke-linecap: round;
+            stroke-linejoin: round;
+        }
+
+        /* Bar Specifics */
+        .bar-path {
+            stroke-width: 2;
+            stroke-dasharray: 14;
+            stroke-dashoffset: 14;
+            /* Animation: 0.3s duration, 0.1s start delay */
+            animation: drawStroke 0.3s ease-out 0.1s forwards;
+        }
+
+        /* Tick Specifics */
+        .tick-path {
+            stroke-width: 2.5;
+            stroke-dasharray: 20;
+            stroke-dashoffset: 20;
+            /* Animation: 0.4s duration, 0.35s start delay (0.1 start + 0.25 offset) */
+            animation: drawStroke 0.4s cubic-bezier(0.65, 0, 0.45, 1) 0.35s forwards;
+        }
+
+        /* Background */
+        .circle-bg {
+            fill: #000000;
+        }
+
+        /* Keyframes */
+        @keyframes drawStroke {
+            to { stroke-dashoffset: 0; }
+        }
+    </style>
+
+    <circle class="circle-bg" cx="12" cy="12" r="11" />
+
+    <path class="icon-path bar-path" d="M6 18h12" />
+
+    <path class="icon-path tick-path" d="M6 10 L10 14 L18 6" />
+
+</svg>

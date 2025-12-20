@@ -1,0 +1,39 @@
+<svg width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        /* Animation Keyframes */
+        @keyframes conveyorBelt {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(24px); }
+        }
+
+        /* Apply Animation */
+        .infinite-scroll {
+            animation: conveyorBelt 1.3s linear infinite;
+        }
+
+        /* Dynamic Colors */
+        .circle-bg {
+            fill: #ffffff;
+        }
+        .icon-part {
+            fill: #000000;
+        }
+    </style>
+
+    <defs>
+        <clipPath id="scroll-window">
+            <rect x="0" y="3.5" width="24" height="13.5" />
+        </clipPath>
+    </defs>
+
+    <circle class="circle-bg" cx="12" cy="12" r="11" />
+
+    <g clip-path="url(#scroll-window)">
+        <g class="infinite-scroll">
+            <path class="icon-part" d="M12 15l-4-4h2.5V5h3v6H16z"/>
+            <path class="icon-part" d="M12 15l-4-4h2.5V5h3v6H16z" transform="translate(0, -24)"/>
+        </g>
+    </g>
+
+    <path class="icon-part" d="M6 17h12v2H6z"/>
+</svg>

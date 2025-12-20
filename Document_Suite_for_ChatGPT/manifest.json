@@ -1,0 +1,49 @@
+{
+  "manifest_version": 3,
+  "name": "Document Suite for ChatGPT",
+  "version": "1.1",
+  "description": "Open-source tool to organize, restructure, and export AI chat content into well-formatted Docx and PDF documents.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "downloads",
+    "unlimitedStorage"
+  ],
+  "host_permissions": [
+    "https://*.hf.space/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://chatgpt.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "sandbox": {
+    "pages": ["preview.html"]
+  },
+  "content_security_policy": {
+    "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; child-src 'self';"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "animated_svgs/*.svg",
+        "static_svgs/*.svg",
+        "preview.html",
+        "wrapper.html",
+        "wrapper.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
