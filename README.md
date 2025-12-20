@@ -95,3 +95,14 @@ See `LICENSE` for more information.
 
 **Acknowledgements:**
 * **Icons:** Custom-designed by the author, with additional assets provided by [Google Fonts Icons](https://fonts.google.com/icons).
+## 9. Installation Steps
+
+For detailed, step-by-step instructions on how to load this extension into Chrome or Brave in Developer Mode, please refer to the official guide included in this repository.
+
+[📄 **Open Installation Guide (PDF)**](installation-guide.pdf)
+
+## 10. Private Server Setup
+
+To ensure total privacy, the PDF conversion happens on a **local server** running on your machine. This guide explains how to install the necessary dependencies and start the local Python server.
+
+[📄 **Open Private Server Guide (PDF)**](private-server-guide.pdf)
