@@ -15,7 +15,6 @@ Easily export a single specific response (including code and tables) to DOCX or 
 Convert a full conversation history into a polished document with a single click.
 
 ![Export Options Sidebar](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/1-export-options.png)
-*(Image: Showing the "Export Chat" options for DOCX and PDF)*
 
 ## 2. Organization: Lists & Folders
 
@@ -26,7 +25,6 @@ Manage complex research across multiple chats using a hierarchical file system.
 * **Active Folder:** The currently selected folder is highlighted with a border. Any content you select in the chat is automatically added to this **Active Folder**.
 
 ![Active Folder UI](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/2-organize-lists-folders.png)
-*(Image: Sidebar showing Lists, Folders, and the highlighted Active Folder)*
 
 ### Drag and Drop Reordering
 You can easily reorganize your content by dragging and dropping items:
@@ -53,7 +51,6 @@ Enable **"Select Sections"** in the Preferences to curate your document granular
     * **Unselect:** If an entire response is selected, **single-click** specific sections (like filler paragraphs) to remove them from the selection while keeping the rest.
 
 ![Section Selection Example](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/3-section-selection.png)
-*(Image: A specific table selected with a border and Section ID, excluding the surrounding text)*
 
 ## 4. Numbering System (X.Y)
 
@@ -74,7 +71,6 @@ Understanding the difference between the formats is crucial for maintaining layo
 * **PDF (Lossless):** Recommended for complex data. The suite uses a direct HTML-to-PDF pipeline that preserves all LaTeX formatting, complex equations, and table borders exactly as they appear on screen.
 
 ![PDF vs DOCX Comparison](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/5-comparision.png)
-*(Image: Side-by-side comparison of a broken DOCX table versus a perfect PDF render)*
 
 ## 6. Preview Mode
 
@@ -84,7 +80,6 @@ Verify your document structure before downloading.
 * **New Tab Option:** Open the preview in a new tab to inspect the full layout sequence before committing to the export.
 
 ![Preview Window](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/e49019daec725a1c4b6160727382a7abbb5350b6/images/6-preview-mode.png)
-*(Image: Preview window showing the ordered sections ready for export)*
 
 ## 7. Storage & Privacy
 
