@@ -1,5 +1,6 @@
 # Document Suite for ChatGPT
-![Logo](https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/f57eff114de9e2544c587700b2e27fb78f0d9a20/Document_Suite_for_ChatGPT/logo.png)
+<img src="https://github.com/realprudhvi/Documentation_Suite_For_ChatGPT/blob/f57eff114de9e2544c587700b2e27fb78f0d9a20/Document_Suite_for_ChatGPT/logo.png" width="480" height="480" alt="Logo">
+
 **Document Suite for ChatGPT** addresses the critical formatting limitations found when exporting ChatGPT conversations. While ChatGPT renders LaTeX equations and tables correctly on-screen, standard DOCX exports often strip essential LaTeX rules (like `\hline` and `\cline`) and corrupt table borders.
 
 This suite provides a robust solution for organizing, selecting, and exporting chat content with high fidelity, ensuring a lossless conversion for complex mathematical and structural data.
