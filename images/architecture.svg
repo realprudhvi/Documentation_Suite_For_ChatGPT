@@ -1,0 +1,261 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860pt" height="454pt" viewBox="0.00 0.00 860.00 454.00">
+<g id="graph0" class="graph" transform="scale(0.567398 0.567398) rotate(0) translate(4 796.14)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-796.14 1511.52,-796.14 1511.52,4 -4,4"/>
+<g id="clust1" class="cluster">
+<title>cluster_client</title>
+<polygon fill="#f0f8ff" stroke="#a0c8f0" stroke-dasharray="5,2" points="8,-386.26 8,-780.07 676.75,-780.07 676.75,-386.26 8,-386.26"/>
+<text xml:space="preserve" text-anchor="middle" x="342.38" y="-766.17" font-family="Helvetica,sans-Serif" font-size="11.00">Client-Side (Chrome Extension)</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_content_js</title>
+<polygon fill="#d3d3d3" stroke="#d3d3d3" points="199.8,-485.85 199.8,-725.76 661.75,-725.76 661.75,-485.85 199.8,-485.85"/>
+<text xml:space="preserve" text-anchor="middle" x="430.78" y="-711.86" font-family="Helvetica,sans-Serif" font-size="11.00">content.js</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_server</title>
+<polygon fill="#fafafa" stroke="#c0c0c0" stroke-dasharray="5,2" points="570.24,-12.07 570.24,-374.19 1187.42,-374.19 1187.42,-12.07 570.24,-12.07"/>
+<text xml:space="preserve" text-anchor="middle" x="878.83" y="-360.29" font-family="Helvetica,sans-Serif" font-size="11.00">Server-Side (Stateless Flask)</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_pdf_pipe</title>
+<polygon fill="#a9a9a9" stroke="#a9a9a9" points="834.42,-34.7 834.42,-165.97 1054.42,-165.97 1054.42,-34.7 834.42,-34.7"/>
+<text xml:space="preserve" text-anchor="middle" x="944.42" y="-152.07" font-family="Helvetica,sans-Serif" font-size="11.00">PDF Pipe</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_docx_pipe</title>
+<polygon fill="#a9a9a9" stroke="#a9a9a9" points="952.42,-188.61 952.42,-319.88 1172.42,-319.88 1172.42,-188.61 952.42,-188.61"/>
+<text xml:space="preserve" text-anchor="middle" x="1062.42" y="-305.98" font-family="Helvetica,sans-Serif" font-size="11.00">DOCX Pipe</text>
+</g>
+<!-- User -->
+<g id="node1" class="node">
+<title>User</title>
+<ellipse fill="#ffe0b2" stroke="#333333" cx="51.52" cy="-590" rx="28.8" ry="18"/>
+<text xml:space="preserve" text-anchor="middle" x="51.52" y="-587" font-family="Helvetica,sans-Serif" font-size="10.00">User</text>
+</g>
+<!-- DOM -->
+<g id="node2" class="node">
+<title>DOM</title>
+<polygon fill="#ffffff" stroke="#333333" points="163.12,-608 125.92,-608 125.92,-572 169.12,-572 169.12,-602 163.12,-608"/>
+<polyline fill="none" stroke="#333333" points="163.12,-608 163.12,-602"/>
+<polyline fill="none" stroke="#333333" points="169.12,-602 163.12,-602"/>
+<text xml:space="preserve" text-anchor="middle" x="147.52" y="-587" font-family="Helvetica,sans-Serif" font-size="10.00">DOM</text>
+</g>
+<!-- User&#45;&gt;DOM -->
+<g id="edge1" class="edge">
+<title>User-&gt;DOM</title>
+<path fill="none" stroke="#555555" d="M80.58,-590C80.58,-590 117.05,-590 117.05,-590"/>
+<polygon fill="#555555" stroke="#555555" points="117.05,-592.45 124.05,-590 117.05,-587.55 117.05,-592.45"/>
+</g>
+<!-- PayloadPrep -->
+<g id="node3" class="node">
+<title>PayloadPrep</title>
+<path fill="#ffffff" stroke="#333333" d="M278.54,-554C278.54,-554 226.5,-554 226.5,-554 220.5,-554 214.5,-548 214.5,-542 214.5,-542 214.5,-530 214.5,-530 214.5,-524 220.5,-518 226.5,-518 226.5,-518 278.54,-518 278.54,-518 284.54,-518 290.54,-524 290.54,-530 290.54,-530 290.54,-542 290.54,-542 290.54,-548 284.54,-554 278.54,-554"/>
+<text xml:space="preserve" text-anchor="middle" x="252.52" y="-533" font-family="Helvetica,sans-Serif" font-size="10.00">Payload Prep</text>
+</g>
+<!-- DOM&#45;&gt;PayloadPrep -->
+<g id="edge3" class="edge">
+<title>DOM-&gt;PayloadPrep</title>
+<path fill="none" stroke="#555555" d="M147.52,-571.72C147.52,-556.05 147.52,-536 147.52,-536 147.52,-536 205.5,-536 205.5,-536"/>
+<polygon fill="#555555" stroke="#555555" points="205.5,-538.45 212.5,-536 205.5,-533.55 205.5,-538.45"/>
+</g>
+<!-- Observer -->
+<g id="node4" class="node">
+<title>Observer</title>
+<path fill="#ffffff" stroke="#333333" d="M276.52,-662C276.52,-662 228.52,-662 228.52,-662 222.52,-662 216.52,-656 216.52,-650 216.52,-650 216.52,-638 216.52,-638 216.52,-632 222.52,-626 228.52,-626 228.52,-626 276.52,-626 276.52,-626 282.52,-626 288.52,-632 288.52,-638 288.52,-638 288.52,-650 288.52,-650 288.52,-656 282.52,-662 276.52,-662"/>
+<text xml:space="preserve" text-anchor="middle" x="252.52" y="-641" font-family="Helvetica,sans-Serif" font-size="10.00">Observer</text>
+</g>
+<!-- DOM&#45;&gt;Observer -->
+<g id="edge2" class="edge">
+<title>DOM-&gt;Observer</title>
+<path fill="none" stroke="#555555" d="M147.52,-608.28C147.52,-623.95 147.52,-644 147.52,-644 147.52,-644 207.57,-644 207.57,-644"/>
+<polygon fill="#555555" stroke="#555555" points="207.57,-646.45 214.57,-644 207.57,-641.55 207.57,-646.45"/>
+</g>
+<!-- BackgroundWorker -->
+<g id="node8" class="node">
+<title>BackgroundWorker</title>
+<path fill="#ffeeee" stroke="#333333" d="M395.52,-454C395.52,-454 347.52,-454 347.52,-454 341.52,-454 335.52,-448 335.52,-442 335.52,-442 335.52,-430 335.52,-430 335.52,-424 341.52,-418 347.52,-418 347.52,-418 395.52,-418 395.52,-418 401.52,-418 407.52,-424 407.52,-430 407.52,-430 407.52,-442 407.52,-442 407.52,-448 401.52,-454 395.52,-454"/>
+<text xml:space="preserve" text-anchor="middle" x="371.52" y="-439" font-family="Helvetica,sans-Serif" font-size="10.00">Background</text>
+<text xml:space="preserve" text-anchor="middle" x="371.52" y="-427" font-family="Helvetica,sans-Serif" font-size="10.00">Worker</text>
+</g>
+<!-- PayloadPrep&#45;&gt;BackgroundWorker -->
+<g id="edge7" class="edge">
+<title>PayloadPrep-&gt;BackgroundWorker</title>
+<path fill="none" stroke="#555555" d="M290.82,-536C325.61,-536 371.52,-536 371.52,-536 371.52,-536 371.52,-462.86 371.52,-462.86"/>
+<polygon fill="#555555" stroke="#555555" points="373.97,-462.86 371.52,-455.86 369.07,-462.86 373.97,-462.86"/>
+</g>
+<!-- StateMgr -->
+<g id="node5" class="node">
+<title>StateMgr</title>
+<path fill="#ffffff" stroke="#333333" d="M395.52,-661C395.52,-661 347.52,-661 347.52,-661 341.52,-661 335.52,-655 335.52,-649 335.52,-649 335.52,-637 335.52,-637 335.52,-631 341.52,-625 347.52,-625 347.52,-625 395.52,-625 395.52,-625 401.52,-625 407.52,-631 407.52,-637 407.52,-637 407.52,-649 407.52,-649 407.52,-655 401.52,-661 395.52,-661"/>
+<text xml:space="preserve" text-anchor="middle" x="371.52" y="-640" font-family="Helvetica,sans-Serif" font-size="10.00">State Mgr</text>
+</g>
+<!-- Observer&#45;&gt;StateMgr -->
+<g id="edge4" class="edge">
+<title>Observer-&gt;StateMgr</title>
+<path fill="none" stroke="#555555" d="M288.87,-643.5C288.87,-643.5 326.88,-643.5 326.88,-643.5"/>
+<polygon fill="#555555" stroke="#555555" points="326.88,-645.95 333.88,-643.5 326.88,-641.05 326.88,-645.95"/>
+</g>
+<!-- Crypto -->
+<g id="node6" class="node">
+<title>Crypto</title>
+<path fill="#ffffff" stroke="#333333" d="M521.97,-659C521.97,-659 471.07,-659 471.07,-659 465.07,-659 459.07,-653 459.07,-647 459.07,-647 459.07,-635 459.07,-635 459.07,-629 465.07,-623 471.07,-623 471.07,-623 521.97,-623 521.97,-623 527.97,-623 533.97,-629 533.97,-635 533.97,-635 533.97,-647 533.97,-647 533.97,-653 527.97,-659 521.97,-659"/>
+<text xml:space="preserve" text-anchor="middle" x="496.52" y="-638" font-family="Helvetica,sans-Serif" font-size="10.00">Crypto (AES)</text>
+</g>
+<!-- StateMgr&#45;&gt;Crypto -->
+<g id="edge5" class="edge">
+<title>StateMgr-&gt;Crypto</title>
+<path fill="none" stroke="#555555" d="M408.01,-642C408.01,-642 450.38,-642 450.38,-642"/>
+<polygon fill="#555555" stroke="#555555" points="450.38,-644.45 457.38,-642 450.38,-639.55 450.38,-644.45"/>
+</g>
+<!-- Storage -->
+<g id="node7" class="node">
+<title>Storage</title>
+<path fill="#ffffff" stroke="#333333" d="M647.03,-655.67C647.03,-657.84 635.59,-659.6 621.52,-659.6 607.44,-659.6 596,-657.84 596,-655.67 596,-655.67 596,-620.33 596,-620.33 596,-618.16 607.44,-616.4 621.52,-616.4 635.59,-616.4 647.03,-618.16 647.03,-620.33 647.03,-620.33 647.03,-655.67 647.03,-655.67"/>
+<path fill="none" stroke="#333333" d="M647.03,-655.67C647.03,-653.51 635.59,-651.75 621.52,-651.75 607.44,-651.75 596,-653.51 596,-655.67"/>
+<text xml:space="preserve" text-anchor="middle" x="621.52" y="-635" font-family="Helvetica,sans-Serif" font-size="10.00">Storage</text>
+</g>
+<!-- Crypto&#45;&gt;Storage -->
+<g id="edge6" class="edge">
+<title>Crypto-&gt;Storage</title>
+<path fill="none" stroke="#555555" d="M534.36,-641C534.36,-641 587.16,-641 587.16,-641"/>
+<polygon fill="#555555" stroke="#555555" points="587.16,-643.45 594.16,-641 587.16,-638.55 587.16,-643.45"/>
+</g>
+<!-- HTTPS -->
+<g id="node9" class="node">
+<title>HTTPS</title>
+<polygon fill="#fffacd" stroke="#333333" points="539.72,-329 453.32,-329 453.32,-325 449.32,-325 449.32,-321 453.32,-321 453.32,-301 449.32,-301 449.32,-297 453.32,-297 453.32,-293 539.72,-293 539.72,-329"/>
+<polyline fill="none" stroke="#333333" points="453.32,-325 457.32,-325 457.32,-321 453.32,-321"/>
+<polyline fill="none" stroke="#333333" points="453.32,-301 457.32,-301 457.32,-297 453.32,-297"/>
+<text xml:space="preserve" text-anchor="middle" x="496.52" y="-308" font-family="Helvetica,sans-Serif" font-size="10.00">HTTPS POST</text>
+</g>
+<!-- BackgroundWorker&#45;&gt;HTTPS -->
+<g id="edge8" class="edge">
+<title>BackgroundWorker-&gt;HTTPS</title>
+<path fill="none" stroke="#555555" d="M371.52,-417.56C371.52,-382.78 371.52,-311 371.52,-311 371.52,-311 444.64,-311 444.64,-311"/>
+<polygon fill="#555555" stroke="#555555" points="444.64,-313.45 451.64,-311 444.64,-308.55 444.64,-313.45"/>
+</g>
+<!-- FlaskApp -->
+<g id="node10" class="node">
+<title>FlaskApp</title>
+<path fill="#c1e1c1" stroke="#333333" d="M645.52,-256C645.52,-256 597.52,-256 597.52,-256 591.52,-256 585.52,-250 585.52,-244 585.52,-244 585.52,-232 585.52,-232 585.52,-226 591.52,-220 597.52,-220 597.52,-220 645.52,-220 645.52,-220 651.52,-220 657.52,-226 657.52,-232 657.52,-232 657.52,-244 657.52,-244 657.52,-250 651.52,-256 645.52,-256"/>
+<text xml:space="preserve" text-anchor="middle" x="621.52" y="-235" font-family="Helvetica,sans-Serif" font-size="10.00">Flask App</text>
+</g>
+<!-- HTTPS&#45;&gt;FlaskApp -->
+<g id="edge9" class="edge">
+<title>HTTPS-&gt;FlaskApp</title>
+<path fill="none" stroke="#555555" d="M540.21,-311C564.76,-311 590.52,-311 590.52,-311 590.52,-311 590.52,-264.93 590.52,-264.93"/>
+<polygon fill="#555555" stroke="#555555" points="592.97,-264.93 590.52,-257.93 588.07,-264.93 592.97,-264.93"/>
+</g>
+<!-- Stats -->
+<g id="node11" class="node">
+<title>Stats</title>
+<path fill="#e6e6fa" stroke="#333333" d="M798.78,-143.65C798.78,-145.69 783.42,-147.35 764.52,-147.35 745.61,-147.35 730.25,-145.69 730.25,-143.65 730.25,-143.65 730.25,-110.35 730.25,-110.35 730.25,-108.31 745.61,-106.65 764.52,-106.65 783.42,-106.65 798.78,-108.31 798.78,-110.35 798.78,-110.35 798.78,-143.65 798.78,-143.65"/>
+<path fill="none" stroke="#333333" d="M798.78,-143.65C798.78,-141.61 783.42,-139.95 764.52,-139.95 745.61,-139.95 730.25,-141.61 730.25,-143.65"/>
+<text xml:space="preserve" text-anchor="middle" x="764.52" y="-129.7" font-family="Helvetica,sans-Serif" font-size="9.00">Global Count</text>
+<text xml:space="preserve" text-anchor="middle" x="764.52" y="-118.9" font-family="Helvetica,sans-Serif" font-size="9.00">(No Data)</text>
+</g>
+<!-- FlaskApp&#45;&gt;Stats -->
+<g id="edge10" class="edge">
+<title>FlaskApp-&gt;Stats</title>
+<path fill="none" stroke="#555555" stroke-dasharray="1,5" d="M621.52,-219.67C621.52,-188.14 621.52,-127 621.52,-127 621.52,-127 721.39,-127 721.39,-127"/>
+<polygon fill="#555555" stroke="#555555" points="721.39,-129.45 728.39,-127 721.39,-124.55 721.39,-129.45"/>
+<text xml:space="preserve" text-anchor="middle" x="693.52" y="-170.2" font-family="Times,serif" font-size="14.00"> +1</text>
+</g>
+<!-- BeautifulSoup -->
+<g id="node12" class="node">
+<title>BeautifulSoup</title>
+<path fill="#ffffff" stroke="#333333" d="M791.65,-256C791.65,-256 737.38,-256 737.38,-256 731.38,-256 725.38,-250 725.38,-244 725.38,-244 725.38,-232 725.38,-232 725.38,-226 731.38,-220 737.38,-220 737.38,-220 791.65,-220 791.65,-220 797.65,-220 803.65,-226 803.65,-232 803.65,-232 803.65,-244 803.65,-244 803.65,-250 797.65,-256 791.65,-256"/>
+<text xml:space="preserve" text-anchor="middle" x="764.52" y="-235" font-family="Helvetica,sans-Serif" font-size="10.00">BeautifulSoup</text>
+</g>
+<!-- FlaskApp&#45;&gt;BeautifulSoup -->
+<g id="edge11" class="edge">
+<title>FlaskApp-&gt;BeautifulSoup</title>
+<path fill="none" stroke="#555555" d="M657.97,-238C657.97,-238 716.6,-238 716.6,-238"/>
+<polygon fill="#555555" stroke="#555555" points="716.6,-240.45 723.6,-238 716.6,-235.55 716.6,-240.45"/>
+</g>
+<!-- TOCGen -->
+<g id="node13" class="node">
+<title>TOCGen</title>
+<path fill="#ffffff" stroke="#333333" d="M909.52,-102C909.52,-102 861.52,-102 861.52,-102 855.52,-102 849.52,-96 849.52,-90 849.52,-90 849.52,-78 849.52,-78 849.52,-72 855.52,-66 861.52,-66 861.52,-66 909.52,-66 909.52,-66 915.52,-66 921.52,-72 921.52,-78 921.52,-78 921.52,-90 921.52,-90 921.52,-96 915.52,-102 909.52,-102"/>
+<text xml:space="preserve" text-anchor="middle" x="885.52" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">TOC Gen</text>
+</g>
+<!-- BeautifulSoup&#45;&gt;TOCGen -->
+<g id="edge12" class="edge">
+<title>BeautifulSoup-&gt;TOCGen</title>
+<path fill="none" stroke="#b22222" stroke-width="1.5" d="M803.87,-229C835.09,-229 873.52,-229 873.52,-229 873.52,-229 873.52,-111.63 873.52,-111.63"/>
+<polygon fill="#b22222" stroke="#b22222" stroke-width="1.5" points="875.97,-111.63 873.52,-104.63 871.07,-111.63 875.97,-111.63"/>
+</g>
+<!-- Pandoc -->
+<g id="node15" class="node">
+<title>Pandoc</title>
+<path fill="#ffffff" stroke="#333333" d="M1027.52,-256C1027.52,-256 979.52,-256 979.52,-256 973.52,-256 967.52,-250 967.52,-244 967.52,-244 967.52,-232 967.52,-232 967.52,-226 973.52,-220 979.52,-220 979.52,-220 1027.52,-220 1027.52,-220 1033.52,-220 1039.52,-226 1039.52,-232 1039.52,-232 1039.52,-244 1039.52,-244 1039.52,-250 1033.52,-256 1027.52,-256"/>
+<text xml:space="preserve" text-anchor="middle" x="1003.52" y="-235" font-family="Helvetica,sans-Serif" font-size="10.00">Pandoc</text>
+</g>
+<!-- BeautifulSoup&#45;&gt;Pandoc -->
+<g id="edge14" class="edge">
+<title>BeautifulSoup-&gt;Pandoc</title>
+<path fill="none" stroke="#00008b" stroke-width="1.5" d="M803.98,-247C803.98,-247 957.86,-247 957.86,-247"/>
+<polygon fill="#00008b" stroke="#00008b" stroke-width="1.5" points="957.86,-249.45 964.86,-247 957.86,-244.55 957.86,-249.45"/>
+</g>
+<!-- WeasyPrint -->
+<g id="node14" class="node">
+<title>WeasyPrint</title>
+<path fill="#ffffff" stroke="#333333" d="M1027.52,-102C1027.52,-102 979.52,-102 979.52,-102 973.52,-102 967.52,-96 967.52,-90 967.52,-90 967.52,-78 967.52,-78 967.52,-72 973.52,-66 979.52,-66 979.52,-66 1027.52,-66 1027.52,-66 1033.52,-66 1039.52,-72 1039.52,-78 1039.52,-78 1039.52,-90 1039.52,-90 1039.52,-96 1033.52,-102 1027.52,-102"/>
+<text xml:space="preserve" text-anchor="middle" x="1003.52" y="-81" font-family="Helvetica,sans-Serif" font-size="10.00">WeasyPrint</text>
+</g>
+<!-- TOCGen&#45;&gt;WeasyPrint -->
+<g id="edge13" class="edge">
+<title>TOCGen-&gt;WeasyPrint</title>
+<path fill="none" stroke="#b22222" stroke-width="1.5" d="M921.88,-84C921.88,-84 957.8,-84 957.8,-84"/>
+<polygon fill="#b22222" stroke="#b22222" stroke-width="1.5" points="957.8,-86.45 964.8,-84 957.8,-81.55 957.8,-86.45"/>
+</g>
+<!-- TOCGen&#45;&gt;Pandoc -->
+<!-- OutputFile -->
+<g id="node17" class="node">
+<title>OutputFile</title>
+<polygon fill="#fffacd" stroke="#333333" points="1284.52,-162.2 1218.52,-162.2 1218.52,-111.8 1290.52,-111.8 1290.52,-156.2 1284.52,-162.2"/>
+<polyline fill="none" stroke="#333333" points="1284.52,-162.2 1284.52,-156.2"/>
+<polyline fill="none" stroke="#333333" points="1290.52,-156.2 1284.52,-156.2"/>
+<text xml:space="preserve" text-anchor="middle" x="1254.52" y="-134" font-family="Helvetica,sans-Serif" font-size="10.00">Output File</text>
+</g>
+<!-- WeasyPrint&#45;&gt;OutputFile -->
+<g id="edge16" class="edge">
+<title>WeasyPrint-&gt;OutputFile</title>
+<path fill="none" stroke="#555555" d="M1003.52,-102.27C1003.52,-114.95 1003.52,-129.57 1003.52,-129.57 1003.52,-129.57 1209.51,-129.57 1209.51,-129.57"/>
+<polygon fill="#555555" stroke="#555555" points="1209.51,-132.03 1216.51,-129.58 1209.51,-127.13 1209.51,-132.03"/>
+</g>
+<!-- XMLFixer -->
+<g id="node16" class="node">
+<title>XMLFixer</title>
+<path fill="#ffffff" stroke="#333333" d="M1145.52,-256C1145.52,-256 1097.52,-256 1097.52,-256 1091.52,-256 1085.52,-250 1085.52,-244 1085.52,-244 1085.52,-232 1085.52,-232 1085.52,-226 1091.52,-220 1097.52,-220 1097.52,-220 1145.52,-220 1145.52,-220 1151.52,-220 1157.52,-226 1157.52,-232 1157.52,-232 1157.52,-244 1157.52,-244 1157.52,-250 1151.52,-256 1145.52,-256"/>
+<text xml:space="preserve" text-anchor="middle" x="1121.52" y="-235" font-family="Helvetica,sans-Serif" font-size="10.00">XML Fixer</text>
+</g>
+<!-- Pandoc&#45;&gt;XMLFixer -->
+<g id="edge15" class="edge">
+<title>Pandoc-&gt;XMLFixer</title>
+<path fill="none" stroke="#00008b" stroke-width="1.5" d="M1039.88,-238C1039.88,-238 1075.8,-238 1075.8,-238"/>
+<polygon fill="#00008b" stroke="#00008b" stroke-width="1.5" points="1075.8,-240.45 1082.8,-238 1075.8,-235.55 1075.8,-240.45"/>
+</g>
+<!-- XMLFixer&#45;&gt;OutputFile -->
+<g id="edge17" class="edge">
+<title>XMLFixer-&gt;OutputFile</title>
+<path fill="none" stroke="#555555" d="M1121.52,-219.53C1121.52,-195.01 1121.52,-154.77 1121.52,-154.77 1121.52,-154.77 1209.66,-154.77 1209.66,-154.77"/>
+<polygon fill="#555555" stroke="#555555" points="1209.66,-157.23 1216.66,-154.78 1209.66,-152.33 1209.66,-157.23"/>
+</g>
+<!-- DataWipe -->
+<g id="node18" class="node">
+<title>DataWipe</title>
+<polygon fill="#ffcdd2" stroke="#b71c1c" points="1507.07,-127.62 1507.07,-146.38 1472.77,-159.65 1424.26,-159.65 1389.97,-146.38 1389.97,-127.62 1424.26,-114.35 1472.77,-114.35 1507.07,-127.62"/>
+<text xml:space="preserve" text-anchor="middle" x="1448.52" y="-139.7" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#b71c1c">Auto-Wipe</text>
+<text xml:space="preserve" text-anchor="middle" x="1448.52" y="-128.9" font-family="Helvetica,sans-Serif" font-size="9.00" fill="#b71c1c">(HTML &amp; Files)</text>
+</g>
+<!-- OutputFile&#45;&gt;DataWipe -->
+<g id="edge18" class="edge">
+<title>OutputFile-&gt;DataWipe</title>
+<path fill="none" stroke="#d32f2f" stroke-width="2.5" d="M1291.01,-137C1291.01,-137 1375.91,-137 1375.91,-137"/>
+<polygon fill="#d32f2f" stroke="#d32f2f" stroke-width="2.5" points="1375.91,-140.5 1385.91,-137 1375.91,-133.5 1375.91,-140.5"/>
+<text xml:space="preserve" text-anchor="middle" x="1340.52" y="-139.7" font-family="Times,serif" font-size="9.00" fill="#d32f2f">Post-Download</text>
+</g>
+</g>
+</svg>
