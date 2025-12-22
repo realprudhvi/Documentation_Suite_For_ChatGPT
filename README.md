@@ -88,6 +88,9 @@ Verify your document structure before downloading.
 * **Stateless Server:** The backend server is used strictly for file conversion. It **does not store** your files; they are deleted immediately after the export is processed.
 * **Hassle-Free:** Your organization is saved automatically, so you can close the browser and resume your work later without data loss.
 
+### System Architecture
+<img src="images/architecture_diagram.svg" width="800" alt="Architecture Diagram showing local storage and stateless server flow">
+
 ## 8. License
 
 Licensed under the **Apache License, Version 2.0** or the **MIT License** (the "Licenses"), at your option. You may not use this file except in compliance with one of these Licenses.
